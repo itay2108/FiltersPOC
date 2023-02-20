@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import DSFilters
+import Filters
 
 class FilterValuesViewModel<T: Filterable>: ObservableObject {
     @Published var allFilters: [Filter<T>]?

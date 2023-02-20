@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import DSFilters
+import Filters
 
 struct FilterCategoryView<T: Filterable>: View {
     

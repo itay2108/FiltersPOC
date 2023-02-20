@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import DSFilters
+import Filters
 
 struct FilterValuesView<T: Filterable>: View {
     @Environment(\.dismiss) private var dismiss

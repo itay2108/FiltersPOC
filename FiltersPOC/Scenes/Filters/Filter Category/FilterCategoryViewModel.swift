@@ -7,7 +7,7 @@
 
 import Foundation
 import Combine
-import DSFilters
+import Filters
 
 class FilterCategoryViewModel<T: Filterable>: ObservableObject {
     @Published var filters: [Filter<T>]?

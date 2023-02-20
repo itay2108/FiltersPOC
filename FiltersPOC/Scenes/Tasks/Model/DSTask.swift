@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import DSFilters
+import Filters
 
 struct DSTask: Identifiable {
     
@@ -79,7 +79,7 @@ extension DSTask: Filterable {
         return importance.rawValue.anyEquatable
     }
     
-    static func keypath(for key: String) -> KeyPath<DSTask, DSFilters.AnyEquatable>? {
+    static func keypath(for key: String) -> KeyPath<DSTask, AnyEquatable>? {
         switch key {
         case FilterKeys.deadline.rawKey:
             return \.filterDeadline

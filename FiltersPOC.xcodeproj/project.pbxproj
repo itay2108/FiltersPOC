@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		D0BA323C299BE52200957840 /* FilterCapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA323B299BE52200957840 /* FilterCapsuleView.swift */; };
 		D0BA323F299C138300957840 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA323E299C138300957840 /* ErrorView.swift */; };
+		D0D6566529A36EBD006D2CF0 /* Filters in Frameworks */ = {isa = PBXBuildFile; productRef = D0D6566429A36EBD006D2CF0 /* Filters */; };
 		D0F4105E2999824700B18D10 /* FiltersPOCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4105D2999824700B18D10 /* FiltersPOCApp.swift */; };
 		D0F410602999824700B18D10 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4105F2999824700B18D10 /* TaskView.swift */; };
 		D0F410622999824900B18D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F410612999824900B18D10 /* Assets.xcassets */; };
 		D0F410662999824900B18D10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F410652999824900B18D10 /* Preview Assets.xcassets */; };
-		D0F4106E2999825F00B18D10 /* DSFilters in Frameworks */ = {isa = PBXBuildFile; productRef = D0F4106D2999825F00B18D10 /* DSFilters */; };
 		D0F410702999899900B18D10 /* DSTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4106F2999899900B18D10 /* DSTask.swift */; };
 		D0F4107229998A6B00B18D10 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4107129998A6B00B18D10 /* Date+Extensions.swift */; };
 		D0F4107929998C2200B18D10 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4107829998C2200B18D10 /* TaskViewModel.swift */; };
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0F4106E2999825F00B18D10 /* DSFilters in Frameworks */,
+				D0D6566529A36EBD006D2CF0 /* Filters in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +218,7 @@
 			);
 			name = FiltersPOC;
 			packageProductDependencies = (
-				D0F4106D2999825F00B18D10 /* DSFilters */,
+				D0D6566429A36EBD006D2CF0 /* Filters */,
 			);
 			productName = FiltersPOC;
 			productReference = D0F4105A2999824700B18D10 /* FiltersPOC.app */;
@@ -249,7 +249,7 @@
 			);
 			mainGroup = D0F410512999824700B18D10;
 			packageReferences = (
-				D0F4106C2999825F00B18D10 /* XCRemoteSwiftPackageReference "Filters" */,
+				D0D6566329A36EBD006D2CF0 /* XCRemoteSwiftPackageReference "Filters" */,
 			);
 			productRefGroup = D0F4105B2999824700B18D10 /* Products */;
 			projectDirPath = "";
@@ -510,21 +510,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D0F4106C2999825F00B18D10 /* XCRemoteSwiftPackageReference "Filters" */ = {
+		D0D6566329A36EBD006D2CF0 /* XCRemoteSwiftPackageReference "Filters" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/itay2108/Filters.git";
 			requirement = {
-				branch = main;
+				branch = master;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D0F4106D2999825F00B18D10 /* DSFilters */ = {
+		D0D6566429A36EBD006D2CF0 /* Filters */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D0F4106C2999825F00B18D10 /* XCRemoteSwiftPackageReference "Filters" */;
-			productName = DSFilters;
+			package = D0D6566329A36EBD006D2CF0 /* XCRemoteSwiftPackageReference "Filters" */;
+			productName = Filters;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
