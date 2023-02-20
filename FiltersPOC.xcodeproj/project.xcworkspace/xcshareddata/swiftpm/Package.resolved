@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "filters",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/itay2108/Filters.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3a1b6456f10ea4d3bf67b1f3dc73ce452eb9b903"
+      }
+    }
+  ],
+  "version" : 2
+}
